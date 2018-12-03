@@ -1,0 +1,62 @@
+ul {
+  padding-left: 0px;
+  font-size: 1.25vw; /* Fit to container width */
+}
+
+#autosized {
+  font-size: 2.2vw; /* Fit to container width */
+
+}
+
+.region-item {
+/*  color: purple;
+  font-style: italic;
+  font-family: "Times New Roman", Times, serif;*/
+  list-style-type: none;
+  position: relative;
+  display: inline-block;
+  border-left: 1px solid black;
+/*  border-right: 1px solid black;
+*/  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.region-item a:link {
+/*    text-decoration: none;
+*/    color: black;
+}
+
+.region-item a:hover {
+/*  text-decoration: none;
+*/  font-style: bold;
+}
+
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    /*text-decoration: none;*/
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {font-style: bold; color: darkgreen;}
+
+/* Show the dropdown menu on hover */
+.region-item:hover .dropdown-content {display: block; color: purple;}
+
+
+
+
+
