@@ -1,11 +1,21 @@
-ul {
+#newstuff {
+  background-color: white;
+  padding-left: 1em;
+}
+
+.shadow-box {
+  border: 1px solid black;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  border-radius: 0.5em;
+}
+
+#autosized-list {
   padding-left: 0px;
   font-size: 1.25vw; /* Fit to container width */
 }
 
 #autosized {
   font-size: 2.2vw; /* Fit to container width */
-
 }
 
 .region-item {
@@ -38,7 +48,6 @@ ul {
     position: absolute;
     background-color: #f1f1f1;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
 
